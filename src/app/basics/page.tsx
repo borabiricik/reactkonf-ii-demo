@@ -29,24 +29,19 @@ export default function Basics() {
               <code>1. Optimizations</code>
             </Link>
           </li>
-          <Link href={"/basics/caching"} className="hover:underline">
-            <li>
-              <code>2. Caching</code>
-            </li>
-          </Link>
           <Link href={"/basics/routing"} className="hover:underline">
             <li>
-              <code>3. Routing</code>
+              <code>2. Routing</code>
             </li>
           </Link>
           <Link href={"/basics/seo"} className="hover:underline">
             <li>
-              <code>4. SEO</code>
+              <code>3. SEO</code>
             </li>
           </Link>
           <Link href={"/basics/api-routes"} className="hover:underline">
             <li>
-              <code>5. API Routes</code>
+              <code>4. API Routes</code>
             </li>
           </Link>
         </ol>

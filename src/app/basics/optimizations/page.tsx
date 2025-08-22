@@ -32,6 +32,7 @@ const Optimizations = () => {
             </div>
             <div>
               <h3 className="text-lg font-bold">Without next/image</h3>
+
               <img src="https://picsum.photos/200" alt="Image Optimization" />
             </div>
           </div>
