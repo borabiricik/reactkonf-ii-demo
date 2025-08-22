@@ -10,6 +10,10 @@
 !.yarn/releases
 !.yarn/versions
 
+# react-email-starter
+react-email-starter/node_modules
+react-email-starter/.react-email
+
 # testing
 /coverage
 
