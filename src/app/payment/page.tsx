@@ -57,20 +57,6 @@ const PaymentPage = () => {
         customerName,
       });
       router.push(checkout.url);
-      // Query parametreleri ile checkout URL'i oluştur
-      // const params = new URLSearchParams({
-      //   products: selectedProduct,
-      //   ...(customerEmail && { customerEmail }),
-      //   ...(customerName && { customerName }),
-      //   // Metadata olarak konferans bilgisi ekle
-      //   metadata: JSON.stringify({
-      //     event: "ReactKonf 2025",
-      //     source: "website_demo",
-      //   }),
-      // });
-
-      // // Checkout API route'una yönlendir
-      // window.location.href = `/api/checkout?${params.toString()}`;
     } catch (error) {
       console.error("Checkout hatası:", error);
     } finally {
