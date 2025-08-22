@@ -10,9 +10,12 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "@heroui/react": "^2.8.2",
+    "@tabler/icons-react": "^3.34.1",
+    "framer-motion": "^12.23.12",
+    "next": "15.5.0",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.0"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
     "typescript": "^5",
